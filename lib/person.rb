@@ -5,7 +5,11 @@ class Person
 
   def initialize(attributes)
     attributes.each do |key, value|
+<<<<<<< HEAD
       self.send(("#{key}="), value)
+=======
+      self=(("#{key}="), value)
+>>>>>>> a1133ff6bd183fb9baa1915e349aa68d8be6539c
     end
   end
 end
